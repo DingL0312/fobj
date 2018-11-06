@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(209, 203, 203, 0.1)
+}
+.nav-main{width: 100%;height: 60px;box-shadow:0 1px 3px rgba(26,26,26,.1)}
+.nav-main ul li{float: left;text-align: center;}
+.nav-main:hover{background-color: white}
+.nav-main>ul>li:hover{
+    border-bottom: 2px solid blue;
+}
+.nav-main>ul>li:hover .nav-child{
+    display: block;
+}
+.nav-main>ul>li>a{
+    color: black;
+    height: 60px;
+    line-height: 60px;
+    vertical-align:middle;
+    padding: 0 20px;
+}
+.nav-child{
+    position: absolute;
+    margin-top: 5px;
+    width: 84.13px;
+    background-color: white;
+    box-shadow:0 1px 3px rgba(26,26,26,.1);
+    display: none;
+}
+.nav-child ul li{
+    text-align: center;
+    float: none;
+}
+.nav-child ul li a{
+    height: 40px;
+    line-height: 40px;
+    vertical-align:middle;
+    padding: 20px 0;
+    text-align: center;
+}
